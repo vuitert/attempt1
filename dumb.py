@@ -33,6 +33,8 @@ def cheeseshop(kind, *arguments, **keywords):
     for kw in keys:
         print kw, ":", keywords[kw]
 
+def add(x,y): return x+y
+
 cheeseshop("Limburger", "It's very runny, sir.",
            "It's really very, VERY runny, sir.",
            shopkeeper='Michael Palin',
